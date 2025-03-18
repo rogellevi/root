@@ -21,7 +21,7 @@ Habilitar usuario root en una vps.
 #### Instalacion
 Primero Teclee : sudo su
 
-Instalación：`wget https://raw.githubusercontent.com/powermx/root/master/root && bash root`
+Instalación：`wget https://raw.githubusercontent.com/rogellevi/root/master/root && bash root`
 
 
 ### root
