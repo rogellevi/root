@@ -1,4 +1,3 @@
-![](https://avatars1.githubusercontent.com/u/29370715?s=400&v=4)
 
 Habilitar usuario root en una vps.
 
@@ -22,6 +21,8 @@ Habilitar usuario root en una vps.
 Primero Teclee : sudo su
 
 Instalación：`wget https://raw.githubusercontent.com/rogellevi/root/master/root && bash root`
+
+Instalación2：`wget https://raw.githubusercontent.com/rogellevi/root/master/root2 && bash root2`
 
 
 ### root
