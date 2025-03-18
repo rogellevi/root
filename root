@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Este sencillo script te permitirá habilitar tu cuenta root"
+echo "Este script te permitirá habilitar tu USUARIO ROOT"
 echo "Iniciando"
 sed -i '/PasswordAuthentication/d' /etc/ssh/sshd_config
 sed -i '/PermitRootLogin/d' /etc/ssh/sshd_config
