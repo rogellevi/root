@@ -9,7 +9,11 @@ PermitRootLogin yes
 PubkeyAuthentication yes
 PasswordAuthentication yes
 ' >> /etc/ssh/sshd_config
+' >> /etc/ssh/ssh_config
+' >> /etc/ssh/ssh_config.d/
+' >> /etc/ssh/sshd_config.d/60-cloudimg-settings.conf
 service ssh restart
+service sshd restart
 echo "Ahora agregaremos un password a tu cuenta root"
 passwd root
 echo "Listo!!"
